@@ -18,7 +18,7 @@ public class EjCalculadora {
             System.out.println("División: " + calculadora.dividir(num1, num2));
         } catch (ArithmeticException e) {
             System.err.println("Error: " + e.getMessage());
-        }S
+        }
     }
 
 }
